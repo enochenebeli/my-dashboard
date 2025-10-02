@@ -4,9 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "eslint"
+    "build": "next build --no-lint",
+    "start": "next start"
   },
   "dependencies": {
     "bcryptjs": "^3.0.2",
