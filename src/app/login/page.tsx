@@ -40,10 +40,11 @@ export default function LoginPage() {
           required
         />
         <input
-          type="password"
-          placeholder="Password"
-          value## Error Type
-Build Error
+            type="password"
+            placeholder="Password"
+            value={password}
+            onChange={(e) => setPassword(e.target.value)}
+        />
 
 ## Error Message
 Error evaluating Node.js code
